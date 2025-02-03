@@ -1,16 +1,15 @@
 import { useState } from 'react'
 
 import {Header} from './components/Header'
+import {Hero} from './components/Hero'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className="flex flex-col gap-32 h-full w-screen bg-black">
+      <div className="flex flex-col gap-32 h-full w-screen bg-primary">
         <Header/>
-{/*        <Hero/>
-        <Showcase/>*/}
+        <Hero/>
       </div>
     </>
   )

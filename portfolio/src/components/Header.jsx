@@ -1,4 +1,4 @@
-import menu from '/menuWhite.webp'
+import menu from '/ui/menuWhite.webp'
 import logo from '/logo.svg'
 
 import { Menu } from './helper/Menu';

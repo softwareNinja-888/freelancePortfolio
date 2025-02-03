@@ -30,6 +30,9 @@
 
 
 @theme {
+	
+    --color-primary: #222222;
+
     --font-lora : 'lora','sans-serif';
     --font-roboto : 'roboto','sans-serif';
     --font-inter : 'inter','sans-serif';

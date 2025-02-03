@@ -1,4 +1,4 @@
-import close from '/closeWhite.webp'
+import close from '/ui/closeWhite.webp'
 import github from '/github.webp'
 import insta from '/insta.png'
 import linkedin from '/linkedin.png'
@@ -26,7 +26,7 @@ export function Menu({ menuOpen, setMenuOpen }){
     <>
       {/* Background Overlay */}
       <motion.div
-        className="fixed inset-0 bg-black bg-opacity-50 z-40"
+        className="fixed inset-0 bg-primary bg-opacity-50 z-40"
         initial={{ opacity: 0 }}
         animate={{ opacity: menuOpen ? 1 : 0 }}
         transition={{ duration: 0.5 }}
