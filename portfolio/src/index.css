@@ -1,1 +1,38 @@
 @import "tailwindcss";
+
+@tailwind base;
+@tailwind utilities;
+
+@font-face{
+    font-family: 'inter';
+    src: url('./assets/fonts/Inter/static/Inter_18pt-Light.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'lora';
+    src: url('./assets/fonts/Lora/static/Lora-Regular.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'roboto';
+    src: url('./assets/fonts/Roboto/static/Roboto-Regular.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'mont';
+    src: url('./assets/fonts/Montserrat/static/Montserrat-Regular.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@theme {
+    --font-lora : 'lora','sans-serif';
+    --font-roboto : 'roboto','sans-serif';
+    --font-inter : 'inter','sans-serif';
+    --font-mont : 'mont','sans-serif';
+
+}

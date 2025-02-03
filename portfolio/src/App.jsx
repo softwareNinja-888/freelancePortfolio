@@ -1,7 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
 import {Header} from './components/Header'
 
@@ -10,7 +7,11 @@ function App() {
 
   return (
     <>
-      <Header/>
+      <div className="flex flex-col gap-32 h-full w-screen bg-black">
+        <Header/>
+{/*        <Hero/>
+        <Showcase/>*/}
+      </div>
     </>
   )
 }
