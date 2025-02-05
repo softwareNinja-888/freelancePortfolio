@@ -22,6 +22,12 @@ export function Menu({ menuOpen, setMenuOpen }){
     },
   };
 
+  function toSection (section) {
+    const contactSection = document.getElementById(section);
+    contactSection?.scrollIntoView({ behavior: "smooth" });
+    setMenuOpen(!menuOpen)
+  };
+
   return (
     <>
       {/* Background Overlay */}
@@ -46,10 +52,10 @@ export function Menu({ menuOpen, setMenuOpen }){
 
         {/* Links */}
         <nav className="flex flex-col space-y-4 text-lg text-white font-poppins items-center">
-          <a href="#home" className="hover:underline">Home</a>
-          <a href="#about" className="hover:underline">About Me</a>
-          <a href="#subscribe" className="hover:underline">Contact Me</a>
-          <a href="#projects" className="hover:underline">View Projects</a>
+          <a onClick={()=>{toSection('#')}}  className="hover:underline">Home</a>
+          <a onClick={()=>{toSection('about')}}  className="hover:underline">About Me</a>
+          <a onClick={()=>{toSection('subscribe')}} className="hover:underline">Contact Me</a>
+          <a onClick={()=>{toSection('projects')}}  className="hover:underline">View Projects</a>
 
         </nav>
 

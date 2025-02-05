@@ -31,7 +31,10 @@
 
 @theme {
 	
-    --color-primary: #222222;
+    /* YELLOW */
+    --color-primary: #f0ef13;
+    /* PURPLE */
+    --color-secondary : #4801a7; 
 
     --font-lora : 'lora','sans-serif';
     --font-roboto : 'roboto','sans-serif';

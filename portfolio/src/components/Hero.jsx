@@ -21,7 +21,7 @@ export function Hero() {
 
   return (
     // Changed to flex-row on medium screens and added items-center for vertical alignment
-    <div className="flex flex-col lg:flex-row text-white gap-20 lg:gap-10 lg:px-16 max-w-screen items-start justify-center">
+    <div className="flex flex-col lg:flex-row text-black gap-20 lg:gap-10 lg:px-16 max-w-screen items-start justify-center bg-primary py-28">
       {/* Changed width to full on mobile, half on medium screens and aligned items to start on medium */}
       <motion.div
         variants={containerVariants}
