@@ -1,4 +1,4 @@
-import headShot from '/headshot.jpg';
+import headShot from '/headshot.avif';
 
 export function HeadShot({ className = '' }) {
   return (
