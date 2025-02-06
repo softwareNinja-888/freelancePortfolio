@@ -28,6 +28,12 @@
     font-style: normal;
 }
 
+@font-face{
+    font-family: 'poppins';
+    src: url('./assets/fonts/Poppins/Poppins-Bold.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 
 @theme {
 	
@@ -40,5 +46,7 @@
     --font-roboto : 'roboto','sans-serif';
     --font-inter : 'inter','sans-serif';
     --font-mont : 'mont','sans-serif';
+    --font-poppins : 'poppins','sans-serif';
+
 
 }

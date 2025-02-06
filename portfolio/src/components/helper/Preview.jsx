@@ -1,4 +1,3 @@
-import place from '/place.png'
 import oneHealth from '/projects/oneHealth.avif'
 
 export function Preview() {
@@ -9,7 +8,7 @@ export function Preview() {
         <img
           src={oneHealth}
           alt="placeholder image"
-          className="flex justify-center items-center w-11/12 md:w-full h-62"
+          className="flex justify-center items-center w-12/12 lg:w-12/12 h-72"
         />
       </div>
     )
