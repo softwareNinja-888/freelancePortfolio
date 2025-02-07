@@ -17,9 +17,25 @@ export function HeadShot({ className = '' }) {
             src={headShot}
             alt="Head shot"
             className="z-500 w-[80vw] h-[300px] absolute transition-transform duration-500 ease-in-out transform cursor-pointer hover:-translate-x-5 hover:-translate-y-5 active:-translate-x-5 active:-translate-y-5"
+            loading="lazy"
           />
         </a>
       </div>
     </div>
   );
 }
+
+
+FOR FADE IN AND LAZY LOAD
+// import { LazyLoadImage } from "react-lazy-load-image-component";
+// import "react-lazy-load-image-component/src/effects/blur.css";
+
+// const MyImage = () => (
+//   <LazyLoadImage
+//     src="your-image.jpg"
+//     alt="description"
+//     effect="blur" // Options: "blur", "opacity", "black-and-white"
+//   />
+// );
+
+// export default MyImage;
