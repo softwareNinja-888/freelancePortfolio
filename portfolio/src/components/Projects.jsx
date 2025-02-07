@@ -31,6 +31,7 @@ export function Projects(){
             return { ...data, vercelLink: `${repo.vercel}`,img: `${repo.img}`, description: repo.description,formatedName: repo.formatedName,main:repo.main}; // Add Vercel link
           });
           const data = await Promise.all(promises);
+          console.log(`data:${data}`)
           setRepos(data);
         } catch (error) {
           console.error("Error fetching repositories:", error);
@@ -40,6 +41,7 @@ export function Projects(){
       fetchRepos();
     }, []);
 
+    console.log(repos)
 
     return (
         <>
