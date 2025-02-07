@@ -18,7 +18,7 @@ export function Header(){
 
 	return ( 
 
-		 <div className="flex justify-between items-center w-screen px-10 py-12 text-black">
+		 <div id='header' className="flex justify-between items-center w-screen px-10 py-12 text-black">
             <div className="cursor-pointer">
               <img src={logo} className="w-12"/>
             </div>

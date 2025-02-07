@@ -58,7 +58,7 @@ import React from 'react';
 export function ProjectDiv ({ title, description, technologies, imageUrl ,github, live,featured=false}){
 
   return (
-    <div className="relative w-full max-w-4xl my-8 cursor-pointer">
+    <div className="relative w-full max-w-4xl my-8 ">
       <div className="flex gap-6">
         {/* Project Image */}
         <div className="w-8/12 h-96 overflow-auto rounded-lg">

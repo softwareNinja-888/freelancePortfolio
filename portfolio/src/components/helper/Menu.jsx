@@ -54,20 +54,20 @@ export function Menu({ menuOpen, setMenuOpen }){
         <nav className="flex flex-col space-y-4 text-lg text-white font-poppins items-center">
           <a onClick={()=>{toSection('#')}}  className="hover:underline">Home</a>
           <a onClick={()=>{toSection('about')}}  className="hover:underline">About Me</a>
-          <a onClick={()=>{toSection('subscribe')}} className="hover:underline">Contact Me</a>
+          <a onClick={()=>{toSection('contact')}} className="hover:underline">Contact Me</a>
           <a onClick={()=>{toSection('projects')}}  className="hover:underline">View Projects</a>
 
         </nav>
 
         {/* CHANGE BACKGROUND OF IMAGES */}
         <div className="flex space-x-4 mt-16 gap-5">
-          <a href="#" className="w-10">
+          <a target='_blank' href="https://github.com/softwareNinja-888"  className="w-10">
             <img src={github} alt="github logo" className="" />
           </a>
-          <a href="#" className="w-10">
+          <a target='_blank' href="#" className="w-10">
             <img src={linkedin} alt="github logo" className="w-20" />          
           </a>
-          <a href="#" className="w-10">
+          <a target='_blank' href="#" className="w-10">
             <img src={insta} alt="github logo" className="" />          
           </a>
         </div>
