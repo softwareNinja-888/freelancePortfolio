@@ -26,7 +26,8 @@ export function HeadShot({ className = '' }) {
 }
 
 
-FOR FADE IN AND LAZY LOAD
+// FOR FADE IN AND LAZY LOAD
+
 // import { LazyLoadImage } from "react-lazy-load-image-component";
 // import "react-lazy-load-image-component/src/effects/blur.css";
 
