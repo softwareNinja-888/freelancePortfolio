@@ -1,4 +1,4 @@
-import heroImage from '/wai/hero5.jpeg'
+import heroImage from '/hero5.webp'
 
 export function Preview() {
     return(

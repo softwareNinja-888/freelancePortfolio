@@ -1,5 +1,5 @@
 import headShot from '/headshot.avif';
-import vector from '/wai/vector1.jpg'
+import vector from '/vector1.webp'
 
 export function HeadShot({ className = '' }) {
   return (

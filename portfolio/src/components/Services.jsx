@@ -2,7 +2,7 @@ import { SectionHeader } from "./helper/SectionHeader";
 import { ServiceDiv } from "./helper/ServiceDiv";
 
 import server from '/server.avif'
-import design from '/wai/hero4.jpeg'
+import design from '/hero4.webp'
 
 export function Services(){
     const services = [{
