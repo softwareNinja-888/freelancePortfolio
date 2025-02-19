@@ -19,10 +19,10 @@ export function ServiceDiv({img,services,reverse=false}){
     return (
         <>
         <div className={`flex ${reverse ? `flex-row-reverse` : `flex-row` } gap-10`}>
-                <div className="min-w-[40vw]">
+                <div className="min-w-[40vw] hidden lg:block">
                     <img src={img} alt="team photo"  className="lg:w-[40vw] w-[80vw]  h-[350px]" />
                 </div>
-                <div className="lg:flex lg:flex-col gap-10 justify-center hidden">
+                <div className="lg:flex lg:flex-col flex flex-col gap-10 justify-center ">
                     {services.map(el=>{
                         return serviceInfo(el.id,el.name,el.description)
                     })}            

@@ -64,12 +64,12 @@ export function Menu({ menuOpen, setMenuOpen }){
           <a target='_blank' href="https://github.com/softwareNinja-888"  className="w-10">
             <img src={github} alt="github logo" className="" />
           </a>
-          <a target='_blank' href="#" className="w-10">
+          {/* <a target='_blank' href="#" className="w-10">
             <img src={linkedin} alt="github logo" className="w-20" />          
           </a>
           <a target='_blank' href="#" className="w-10">
             <img src={insta} alt="github logo" className="" />          
-          </a>
+          </a> */}
         </div>
       </motion.div>
     </>

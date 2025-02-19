@@ -8,7 +8,7 @@ export function Preview() {
         <img
           src={heroImage}
           alt="placeholder image"
-          className="flex justify-center items-center w-12/12 lg:w-12/12 h-92"
+          className="flex justify-center items-center w-12/12 lg:w-[1000px] h-92"
         />
       </div>
     )

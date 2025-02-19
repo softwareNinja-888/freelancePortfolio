@@ -29,7 +29,7 @@ export function Introduction() {
         
       <div className="flex flex-col items-center md:items-start justify-center gap-3 w-full lg:w-10/12 lg:mt-16">
         <motion.div variants={containerVariants} initial="hidden" animate="visible" className="text-3xl font-space m-0">
-        Transform Click into <br />
+        Transform Clicks into <br />
           <motion.span variants={itemVariants} className="text-[50px] text-[#4801a7] font-poppins">
            Loyal Customers
           </motion.span>
