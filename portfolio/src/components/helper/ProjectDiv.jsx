@@ -4,10 +4,10 @@ import React from 'react';
 export function ProjectDiv ({ title, description, technologies, imageUrl ,github, live,featured=false}){
 
   return (
-    <div className="relative w-full max-w-4xl my-8 ">
+    <div className="relative w-10/12  max-w-4xl my-8 ">
       <div className="flex flex-col gap-6">
         {/* Project Image */}
-        <div className="flex flex-col lg:w-8/12 w-12/12 h-[600px] lg:h-[400px] overflow-auto rounded-lg">
+        <div className="flex flex-col lg:w-10/12 w-12/12 h-[600px] lg:h-[400px] overflow-auto rounded-lg">
           <img 
             src={imageUrl || "/api/placeholder/600/400"} 
             alt={title} 
@@ -47,7 +47,7 @@ export function ProjectDiv ({ title, description, technologies, imageUrl ,github
         </div>
        
         
-         <div className="lg:absolute hidden lg:block left-[55%] top-9 lg:w-[55%] w-11/12 bg-[#0d1117] p-6 rounded-lg border border-gray-700 shadow-xl">
+         <div className="lg:absolute hidden lg:block left-[70%] top-9 lg:w-[55%] w-11/12 bg-[#0d1117] p-6 rounded-lg border border-gray-700 shadow-xl">
           
             {featured ? (
               <p className="text-sm text-teal-400 uppercase mb-2">Featured Project</p>

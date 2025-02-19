@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col gap-0 h-full w-screen bg-white">
+      <div className="flex flex-col gap-0 h-full max-w-screen bg-white overflow-x-hidden">
         <Header/>
         <Hero/>
         <About/>
@@ -22,7 +22,6 @@ function App() {
         <Projects/>
         <Footer/>
         <ScrollToTop/>
-        
       </div>
     </>
   )

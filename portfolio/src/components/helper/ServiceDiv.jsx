@@ -20,7 +20,7 @@ export function ServiceDiv({img,services,reverse=false}){
         <>
         <div className={`flex ${reverse ? `flex-row-reverse` : `flex-row` } gap-10`}>
                 <div className="min-w-[40vw]">
-                    <img src={img} alt="team photo"  className="lg:w-[40vw] w-[80vw]  h-[350px]  transition-transform duration-500 ease-in-out transform cursor-pointer hover:-translate-x-5 hover:-translate-y-5 active:-translate-x-5 active:-translate-y-5" />
+                    <img src={img} alt="team photo"  className="lg:w-[40vw] w-[80vw]  h-[350px]" />
                 </div>
                 <div className="lg:flex lg:flex-col gap-10 justify-center hidden">
                     {services.map(el=>{
