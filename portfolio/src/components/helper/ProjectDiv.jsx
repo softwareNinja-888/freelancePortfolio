@@ -8,12 +8,14 @@ export function ProjectDiv ({ title, description, technologies, imageUrl ,github
     <div className="relative w-10/12  max-w-4xl my-8 ">
       <div className="flex flex-col gap-6">
         {/* Project Image */}
-        <div className="flex flex-col lg:w-10/12 w-12/12 h-[600px] lg:h-[400px] overflow-auto rounded-lg">
-          <img 
-            src={imageUrl || place} 
-            alt={title} 
-            className="w-full h-full"
-          />
+        <div className="flex flex-col lg:w-10/12 w-12/12 h-[600px] lg:h-[400px] overflow-auto ">
+          <div className="relative w-full h-[350px] md:h-[400px] border border-black">
+            <img 
+              src={imageUrl || place} 
+              alt={title} 
+              className="w-full h-full object-cover"
+            />
+          </div>
           <div className="lg:hidden border border-black border-t-0 px-2 py-2">
               <h3 className="text-xl text-black font-bold mb-3 font-poppins">{title}</h3>
               <p className="text-black text-sm mb-4 font-mont">

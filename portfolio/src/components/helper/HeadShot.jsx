@@ -1,4 +1,5 @@
 import headShot from '/headshot.avif';
+import vector from '/wai/vector1.jpg'
 
 export function HeadShot({ className = '' }) {
   return (
@@ -14,7 +15,7 @@ export function HeadShot({ className = '' }) {
           rel="noopener noreferrer"
         >
           <img
-            src={headShot}
+            src={vector}
             alt="Head shot"
             className="z-500 w-[80vw] h-[300px] absolute transition-transform duration-500 ease-in-out transform cursor-pointer hover:-translate-x-5 hover:-translate-y-5 active:-translate-x-5 active:-translate-y-5"
             loading="lazy"
