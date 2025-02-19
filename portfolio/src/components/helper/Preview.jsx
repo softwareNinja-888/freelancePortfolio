@@ -1,4 +1,4 @@
-import oneHealth from '/projects/oneHealth.avif'
+import heroImage from '/wai/hero5.jpeg'
 
 export function Preview() {
     return(
@@ -6,9 +6,9 @@ export function Preview() {
       <div className="flex justify-center items-center w-full mb-10 lg:mb-32 ">
         {/* Added md:w-full to maximize image width on desktop */}
         <img
-          src={oneHealth}
+          src={heroImage}
           alt="placeholder image"
-          className="flex justify-center items-center w-12/12 lg:w-12/12 h-72"
+          className="flex justify-center items-center w-12/12 lg:w-12/12 h-92"
         />
       </div>
     )

@@ -1,4 +1,5 @@
 import React from 'react';
+import place from '/place.png'
 
 
 export function ProjectDiv ({ title, description, technologies, imageUrl ,github, live,featured=false}){
@@ -9,7 +10,7 @@ export function ProjectDiv ({ title, description, technologies, imageUrl ,github
         {/* Project Image */}
         <div className="flex flex-col lg:w-10/12 w-12/12 h-[600px] lg:h-[400px] overflow-auto rounded-lg">
           <img 
-            src={imageUrl || "/api/placeholder/600/400"} 
+            src={imageUrl || place} 
             alt={title} 
             className="w-full h-full"
           />

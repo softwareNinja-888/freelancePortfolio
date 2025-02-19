@@ -27,20 +27,20 @@ export function Introduction() {
   return (
     <div className="">
         
-      <div className="flex flex-col items-center md:items-start justify-center gap-3 w-full lg:w-10/12">
+      <div className="flex flex-col items-center md:items-start justify-center gap-3 w-full lg:w-10/12 lg:mt-16">
         <motion.div variants={containerVariants} initial="hidden" animate="visible" className="text-3xl font-space m-0">
-        Building Web Applications That <br />
+        Transform Click into <br />
           <motion.span variants={itemVariants} className="text-[50px] text-[#4801a7] font-poppins">
-           Drive Results
+           Loyal Customers
           </motion.span>
           <br />
-          <motion.span variants={itemVariants} className="text-[18px] font-space "> I transform your ideas into interactive web realities, focusing on usability and performance.</motion.span>
+          <motion.span variants={itemVariants} className="text-[18px] font-space "> Custom landing pages designed to maximize conversions and grow your business fast</motion.span>
           <br />
           <div className="max-w-[19%] mt-4">
             <hr className="w-full h-[3px] bg-[#4801a7]" />
           </div>
           <motion.div onClick={()=>{toSection('contact')}} className="mt-10 flex justify-center lg:justify-normal" variants={itemVariants}>
-            <Button  text="Let's Talk" width='w-44' classNew="font-poppins hover:bg-secondary hover:text-primary transition-all duration-300"/>
+            <Button  text="Get Started Now" width='w-62' classNew="font-poppins hover:bg-secondary hover:text-primary transition-all duration-500 hover:scale-105 py-3"/>
           </motion.div>
         </motion.div>
       </div>

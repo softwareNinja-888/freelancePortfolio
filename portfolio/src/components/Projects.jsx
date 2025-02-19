@@ -50,8 +50,8 @@ export function Projects(){
     return (
         <>
             <div id='projects' className="flex flex-col lg:px-24 pb-20 gap-[100px] px-5 py-32">
-                <SectionHeader num="4" text="Projects"/>
-                <div className="flex flex-col items-start justify-center gap-20">
+                <SectionHeader num="3" text="Projects"/>
+                <div className="flex flex-col items-center md:items-start justify-center gap-20">
                     {repos.map(el=>{
                         return  (<ProjectDiv key={el.id}  title={el.formatedName} description={el.description} technologies={["React","React Router", "Tailwind"]}  imageUrl={el.img} github={el.html_url + '/blob/main/README.md'} live={el.vercelLink} featured={el.main}/>)
                     })}
