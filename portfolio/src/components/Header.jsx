@@ -1,4 +1,6 @@
 import { FaEnvelope } from "react-icons/fa";
+import {UpworkIcon} from './helper/UpworkIcon'
+
 
 import menu from '/ui/menuLight.avif'
 import logo from '/logo.svg'
@@ -50,7 +52,7 @@ export function Header(){
 
             </nav>
 
-            <div className="hidden lg:flex gap-[35px]">
+            <div className="hidden lg:flex justify-center items-center gap-[35px]">
                 <a href="http://github.com/softwareNinja-888" target="blank">
                     <svg
                         viewBox="0 0 128 128"
@@ -63,6 +65,8 @@ export function Header(){
                 <a href="mailto:mlandvodlamini03@gmail.com" className="text-black hover:scale-105  transition">
                     <FaEnvelope size={24} />
                 </a>
+
+                <UpworkIcon styles='w-20 hover:scale-105'/> 
             </div>
          </div>
 		)

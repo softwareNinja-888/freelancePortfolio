@@ -64,7 +64,7 @@ export function FormFooter() {
     return (
         <div className="w-10/12 lg:w-[420px] m-auto text-white">
             {isSubmitted ? (
-                <p className="text-green-500 font-bold text-center">Thanks for reaching out! I’ll get back to you as soon as possible—usually within a few hours.</p>
+                <p className="text-green-500 font-bold text-center">Thanks for reaching out! I’ll get back to you shortly.</p>
             ) : (
                 <form onSubmit={handleSubmit} className="flex flex-col gap-4">
                     {/* FIRST NAME */}
