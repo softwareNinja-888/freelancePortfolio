@@ -31,12 +31,7 @@ export function Footer() {
 	          <a href="https://github.com/softwareNinja-888" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
 	            <FaGithub size={24} />
 	          </a>
-	          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
-	            <FaLinkedin size={24} />
-	          </a>
-	          <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
-	            <FaTwitter size={24} />
-	          </a>
+	        
 	          <a href="mailto:mlandvodlamini03@gmail.com" className="text-gray-400 hover:text-white transition">
 	            <FaEnvelope size={24} />
 	          </a>

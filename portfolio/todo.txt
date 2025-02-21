@@ -1,0 +1,18 @@
+* Salt&Light Logo/favicon dark/light mode
+* Salt&Light Routes
+
+* Salt&Light preload fonts
+* Salt&Light content
+
+* Salt&Light Responsive
+	- Footer
+	- Follow Us
+
+* Salt&Light README
+
+
+
+
+
+
+
