@@ -22,15 +22,10 @@ export function About() {
             </div>
             <div className="flex flex-col text-md font-mont ">
               <span className="mb-6">
-              I specialize in building responsive, visually appealing websites
-              with smooth, interactive user interfaces. My focus is on creating
-              a seamless user experience through clean, efficient code and
-              custom animations that bring websites to life.
+              I have a passion for  turning ideas into beautiful, functional websites. My sweet spot is crafting eye-catching landing pages that help businesses make that perfect first impression online. Every pixel matters to me, and I take pride in balancing stunning design with smooth, intuitive user experiences.
               </span>
               <span>
-                Whether you're looking to launch a new site, enhance an existing 
-                one, or need specific front-end features, I'm here to help make 
-                your vision a reality. Let's make your online presence shine!
+                When I'm not coding away, I'm probably exploring the latest web design trends or experimenting with new techniques. I believe in keeping things simple yet impactful – if you're looking for someone to bring your web presence to life, I'd love to chat about how we can make that happen together.
              </span>
             </div>
           </div>

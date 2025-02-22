@@ -7,7 +7,7 @@ export function ProjectDiv ({ title, description, technologies, imageUrl ,github
   console.log(imageUrl)
 
   return (
-    <div className="relative w-10/12  max-w-4xl my-8 ">
+    <div className="relative w-11/12 md:w-10/12  max-w-4xl my-8 ">
       <div className="flex flex-col gap-6">
         {/* Project Image */}
         <div className="flex flex-col lg:w-10/12 w-12/12 h-[600px] lg:h-[400px] overflow-auto ">
@@ -15,7 +15,7 @@ export function ProjectDiv ({ title, description, technologies, imageUrl ,github
             <img 
               src={imageUrl || place} 
               alt={title} 
-              className="w-full h-full object-cover"
+              className={`w-full h-full ${ imageUrl === '/coming.svg' ? 'object-cover' : null}`}
             />
           </div>
           <div className="lg:hidden border border-black border-t-0 px-2 py-2">

@@ -1,3 +1,4 @@
+import { Dot } from './Dot';
 
 function serviceInfo(num,title,text){
     return (
