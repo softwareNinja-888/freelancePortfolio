@@ -40,7 +40,7 @@ export function Menu({ menuOpen, setMenuOpen }){
 
       {/* Animated Menu */}
       <motion.div
-        className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[#222222]"
+        className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-secondary"
         initial="closed"
         animate={menuOpen ? "open" : "closed"}
         variants={menuVariants}

@@ -1,3 +1,10 @@
+* Portfolio preload images
+* Yellow menu && react icons to change color
+* Rewrite about me for landing pages
+* Services change num to styled dot
+* projects center picture
+
+
 * Salt&Light Logo/favicon dark/light mode
 * Salt&Light Routes
 
