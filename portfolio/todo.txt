@@ -1,7 +1,5 @@
 * Portfolio preload images
 
-* Services change num to styled dot
-
 
 * Salt&Light Logo/favicon dark/light mode
 * Salt&Light Routes
